@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body{
+    background-color: darkgrey;
+    min-height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header>h1{
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 5vw;
+
+}
+
+header>p{
+    padding-bottom: 50px;
+
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family:'Times New Roman', Times, serif
+    font-size: 3vw;
+ 
+}
+
+section > p {
+    padding-bottom: 1em;
+}
+
+section.normal{
+    background-color: aliceblue;
+    color: black;
+}
+
+section.image{
+    background-color: rgba(0, 0, 0, 0.573);
+    color: aliceblue;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.701);
+    background-attachment: fixed;
+    
+}
+
+section.image > p {
+    background-color: rgba(0, 0, 0, 0.737);
+    width: 400px;
+    padding-left: 20px;padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    display: inline-block;
+
+    
+}
+
+section#image01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    
+    
+}
+section#image02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+
+}
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+
+}
